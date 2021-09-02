@@ -121,11 +121,11 @@ void loop()
   rotate_controller_3.rotateAsync(pump_3);
   rotate_controller_4.rotateAsync(pump_4);
   
-  //flow_rate = 0.0632*speed_-3.6725;
-  flow_rate = 0.0632*speed_;
-  flow_rate_2 = 0.0632*speed_2;
-  flow_rate_3 = 0.0632*speed_3;
-  flow_rate_4 = 0.0632*speed_4;
+
+  flow_rate = 0.004*speed_;
+  flow_rate_2 = 0.004*speed_2;
+  flow_rate_3 = 0.004*speed_3;
+  flow_rate_4 = 0.004*speed_4;
   
   //flow_rate =speed_;
   //Serial.print(flow_rate);
